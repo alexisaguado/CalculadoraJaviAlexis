@@ -15,21 +15,21 @@ public class CalculadoraJaviAlexis {
         boolean salir = false;
 
         while (!salir) {
-            mostrarMenu();
+            //mostrarMenu();
             int opcion = sc.nextInt();
 
             switch (opcion) {
                 case 1:
-                    sumar();
+                    //sumar();
                     break;
                 case 2:
-                    restar();
+                    //restar();
                     break;
                 case 3:
-                    multiplicar();
+                    //multiplicar();
                     break;
                 case 4:
-                    dividir();
+                    //dividir();
                     break;
                 case 5:
                     System.out.println("Saliendo del programa. ¡Hasta luego!");
